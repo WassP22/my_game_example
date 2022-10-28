@@ -1,21 +1,21 @@
 {
-  "name": "educational-phaser-game-template",
+  "name": "my_game_example",
   "version": "0.0.2",
-  "description": "Phaser 3 starter template for educational games, using TypeScript, webpack, and Github Pages.",
-  "homepage": "https://github.com/acbart/educational-phaser-game-template#readme",
+  "description": "Phaser 3 sample game",
+  "homepage": "https://github.com/WassP22/my_game_example/#readme",
   "main": "index.js",
   "game": {
-    "url": "github-hosting-directions",
-    "shortName": "EdGame",
+    "url": "my_game_example",
+    "shortName": "test_game",
     "name": "Educational Phaser Game"
   },
   "author": {
-    "name": "Austin Cory Bart",
-    "url": "https://github.com/acbart"
+    "name": "Paul",
+    "url": "https://github.com/WassP22"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Spring-2021-CISC374/github-hosting-directions.git"
+    "url": "https://github.com/WassP22/my_game_example.git"
   },
   "scripts": {
     "start": "webpack-dev-server --config config/webpack.dev.js",
@@ -40,8 +40,8 @@
   ],
   "template": {
     "name": "educational-phaser-game-template",
-    "url": "https://github.com/acbart/educational-phaser-game-template",
-    "author": "Austin Cory Bart (https://github.com/acbart)"
+    "url": "https://github.com/Winter-2023-CISC367/github-hosting-directions",
+    "author": "Paul (https://github.com/WassP22)"
   },
   "engines": {
     "node": ">=8.0.0"
