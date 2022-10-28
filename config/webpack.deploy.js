@@ -35,7 +35,7 @@ module.exports = (env) => {
 
     // Update the index file for the dist directory
     fs.copyFileSync(path.resolve(__dirname, 'index.html'),
-        path.resolve(__dirname, '..', 'dist', 'index.html'));
+        path.resolve(__dirname, '..', 'dist', 'src/index.html'));
 
     // Update Manifest file
     manifestFile = path.resolve(__dirname, 'pwa', 'manifest.json');
